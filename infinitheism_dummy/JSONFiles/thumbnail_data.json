@@ -1,0 +1,31 @@
+
+[
+    {
+      "thumbnail": "assets/images/thumbnail.jpg",
+      "playButton": "assets/images/play_button.svg",
+      "description": "Gift Yourself a New You ",
+      "chapter": "Chapter 1",
+      "videoUrl":"https://www.youtube.com/watch?v=3NQRhE772b0"
+    },
+    {
+      "thumbnail": "assets/images/thumbnail.jpg",
+      "playButton": "assets/images/play_button.svg",
+      "description": "Hold Peace Above Everything",
+      "chapter": "Chapter 2",
+      "videoUrl":"https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+    },
+    {
+      "thumbnail": "assets/images/thumbnail.jpg",
+      "playButton": "assets/images/play_button.svg",
+      "description": "You Are a Powerful Magnet",
+      "chapter": "Chapter 3",
+      "videoUrl":"https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+    },
+    {
+      "thumbnail": "assets/images/thumbnail.jpg",
+      "playButton": "assets/images/play_button.svg",
+      "description": "The Power of Self Belief",
+      "chapter": "Chapter 4",
+      "videoUrl":"https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4"
+    }
+]

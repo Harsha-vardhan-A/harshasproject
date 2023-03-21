@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>play_button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="23" cy="23" r="23"></circle>
+        <filter x="-52.2%" y="-52.2%" width="204.3%" height="204.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.247814685 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-77.2%" y="-77.2%" width="254.3%" height="254.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="14" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="11" dy="7" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.988337862   0 0 0 0 0.988337862   0 0 0 0 0.988337862  0 0 0 0.303977273 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="play_button" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill-opacity="0.524912587" fill="#192E7B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <circle stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" cx="23" cy="23" r="22.5"></circle>
+            </g>
+            <g id="play" transform="translate(18.000000, 14.000000)" fill="#FFFFFF">
+                <path d="M12.6915001,9.84117848 L1.54075759,17.009513 C1.07618755,17.3081651 0.457473696,17.1736621 0.158821525,16.7090921 C0.0551303801,16.5477948 2.34828008e-17,16.3600861 0,16.1683345 L0,1.8316655 C-2.66460887e-16,1.27938075 0.44771525,0.831665498 1,0.831665498 C1.19175162,0.831665498 1.37946026,0.886795878 1.54075759,0.990487023 L12.6915001,8.15882152 C13.1560702,8.4574737 13.2905732,9.07618755 12.991921,9.54075759 C12.914455,9.66126024 12.8120028,9.76371249 12.6915001,9.84117848 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
